@@ -1,0 +1,67 @@
+.tasks {
+  margin-top: 24px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tasks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border: 1px solid #eef2f7;
+  border-radius: 10px;
+  background: #f8fafc;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.tasks li:hover {
+  background: #f1f5f9;
+  border-color: #e2e8f0;
+}
+
+.tasks li span {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.tasks li div {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.tasks li button {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border: none;
+  border-radius: 8px;
+  background: none;
+  color: #94a3b8;
+  transition: color 0.15s, background 0.15s;
+}
+
+.remove-btn:hover {
+  color: #dc2626;
+  background: rgba(220, 38, 38, 0.08);
+}
+
+.edit-btn:hover {
+  color: #0d9488;
+  background: rgba(13, 148, 136, 0.08);
+}
+
+.tasks-empty {
+  margin-top: 24px;
+  padding: 28px 16px;
+  border: 1px dashed #d7dce3;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #94a3b8;
+}
