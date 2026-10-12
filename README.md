@@ -15,6 +15,7 @@ Aplicação simples de lista de tarefas (to-do list) feita em React. Você pode 
 - [React](https://react.dev/) 19
 - [react-icons](https://react-icons.github.io/react-icons/)
 - [prop-types](https://github.com/facebook/prop-types)
+- [ESLint](https://eslint.org/) 9 com configuração flat (`eslint.config.mjs`)
 - CSS puro (Create React App)
 
 ## Como rodar
@@ -37,6 +38,7 @@ O app abre em [http://localhost:3000](http://localhost:3000).
 | ----------------- | -------------------------------------- |
 | `npm start`       | Roda o app em modo de desenvolvimento  |
 | `npm run build`   | Gera o build de produção na pasta `build` |
+| `npm run lint`    | Verifica o código com o ESLint         |
 | `npm test`        | Roda os testes                         |
 
 ## Estrutura
